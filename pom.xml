@@ -78,12 +78,24 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
+	<!--<distributionManagement>
           <snapshotRepository>
           <id>nexus</id>
           <url>http://15.206.79.196:8081/nexus/content/repositories/snapshots</url>
           </snapshotRepository>
-       </distributionManagement>
+       </distributionManagement> -->
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-8-222.ap-south-1.compute.internal-releases</name>
+        <url>http://15.206.195.141:8081/artifactory/Parking_Backend</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-8-222.ap-south-1.compute.internal-snapshots</name>
+        <url>http://15.206.195.141:8081/artifactory/Parking_Backend</url>
+    </snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
