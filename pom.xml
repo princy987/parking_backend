@@ -77,20 +77,19 @@
 			<version>7.41.2</version>
 		</dependency>
 	</dependencies>
-	<!--<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>c3e19cddd30d-releases</name>
-        <url>http://13.235.2.52:8081/artifactory/libs-release-local</url>
-    </repository>
-</distributionManagement> -->	
- <distributionManagement>
+	<distributionManagement>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://13.235.2.52:8081/repository/maven-snapshots//</url>
+  </snapshotRepository>
+</distributionManagement>
+<!-- <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>c3e19cddd30d-snapshots</name>
         <url>http://13.235.2.52:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-</distributionManagement> 
+</distributionManagement> -->
 
 	<build>
 		<plugins>
