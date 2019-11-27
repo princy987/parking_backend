@@ -78,12 +78,14 @@
 		</dependency>
 	</dependencies>
 	
-	<!--<distributionManagement>
-          <snapshotRepository>
-          <id>nexus</id>
-          <url>http://13.235.238.53:8081/repository/maven-snapshots/</url>
-          </snapshotRepository>
-       </distributionManagement> -->
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>c3e19cddd30d-releases</name>
+        <url>http://13.235.2.52:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
+	
  <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
