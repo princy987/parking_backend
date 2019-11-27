@@ -78,12 +78,12 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
+	<!--<distributionManagement>
           <snapshotRepository>
           <id>nexus</id>
           <url>http://13.235.238.53:8081/repository/maven-snapshots/</url>
           </snapshotRepository>
-       </distributionManagement>
+       </distributionManagement> -->
 	 <!--<distributionManagement>
     <repository>
         <id>central</id>
