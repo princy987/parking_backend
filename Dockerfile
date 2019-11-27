@@ -1,2 +1,3 @@
-FROM sushant227/tomcat
+FROM sushant227/jenkinsdocker
+MAINTAINER Sravani
 RUN java -jar $WORKSPACE/target/*.jar &
