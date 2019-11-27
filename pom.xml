@@ -77,15 +77,13 @@
 			<version>7.41.2</version>
 		</dependency>
 	</dependencies>
-	
-	<distributionManagement>
+	<!--<distributionManagement>
     <repository>
         <id>central</id>
         <name>c3e19cddd30d-releases</name>
         <url>http://13.235.2.52:8081/artifactory/libs-release-local</url>
     </repository>
-</distributionManagement>
-	
+</distributionManagement> -->	
  <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
